@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BabyController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CarriageController.cs" Line="101" Column="26" />
+      <File FileName="Assets\Scripts\GameState.cs" Line="14" Column="33" />
+      <File FileName="Assets\Scripts\PressStart.cs" Line="10" Column="50" />
+      <File FileName="Assets\Scripts\BabyController.cs" Line="9" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
