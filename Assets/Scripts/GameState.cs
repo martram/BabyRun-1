@@ -4,9 +4,11 @@ using System.Collections;
 public class GameState : MonoBehaviour
 {
 	public TextMesh coinCounter;
+	public TextMesh foodCounter;
 	
 	private static bool paused = false;
 	private static int coins = 0;
+	private static int food = 0;
 	private float defTimeScale = 1f;
 	
 	void Start()
@@ -17,6 +19,7 @@ public class GameState : MonoBehaviour
 	void Update()
 	{
 		coinCounter.text = "x"+coins;
+		foodCounter.text = "x"+food;
 	}
 	
 	public static bool IsPaused()
@@ -29,6 +32,11 @@ public class GameState : MonoBehaviour
 		coins += count;
 	}
 	
+	public static void AddFood(int count)
+	{
+		food += count;
+	}
+	
 	public void OnButtonClicked(object o)
 	{
 		if(o.ToString()=="Reset")
@@ -39,6 +47,7 @@ public class GameState : MonoBehaviour
 				paused = false;
 			}
 			coins = 0;
+			food = 0;
 			Application.LoadLevel( Application.loadedLevel );
 		}
 		else if(o.ToString()=="Pause")

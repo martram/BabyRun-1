@@ -7,7 +7,9 @@ public class BabyController : MonoBehaviour
 	
 	private const float m2ft = 3.280839895f;
 	private const float physScale = 600f;
-	private const string cannonPrefix = "Baby Cannon: ";
+	private const float health = 100f;
+	
+	private const string cannonPrefix = "Baby Distance: ";
 	private const string cannonSuffix = " ft";
 	
 	private bool tossed = false;
@@ -45,6 +47,13 @@ public class BabyController : MonoBehaviour
 	
 	void OnCollisionEnter(Collision c)
 	{		
-		if(c.gameObject.tag=="Ground") rigidbody.maxAngularVelocity = 0f;
+		
+		//health-=rigidbody.maxAngularVelocity;
+		cannonDist.text += " health/velocity : "+ rigidbody.maxAngularVelocity.ToString("F1");
+		if(c.gameObject.tag=="Ground"){
+			
+			rigidbody.maxAngularVelocity = 0f;
+			
+		} 
 	}
 }

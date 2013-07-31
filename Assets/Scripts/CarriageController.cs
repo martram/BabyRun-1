@@ -10,9 +10,11 @@ public class CarriageController : MonoBehaviour
 	private bool ducking = false, jumping = false, turning = false;
 	
 	private const float strafeSensitivity = 10f;
-	private const float runSpeed = 4f;
+	private float runSpeed = 7.5f;
 	
-	private const float turnSpeed = Mathf.PI/2f;
+	//private const float turnSpeed = Mathf.PI/2f;
+	//faster turn speed
+	private float turnSpeed = 4f;
 	private const float rightAngle = 90.0f;
 	
 	private const float duckDrop = 0.75f;
@@ -30,15 +32,21 @@ public class CarriageController : MonoBehaviour
 	
 	void Update()
 	{
+		
 		//Touch controls may become confused if this isn't called every frame
 		//So I keep calling this in case we ever want to turn the controller back on
 		tabletInput.Update();
 		
-		if( rigidbody.isKinematic || GameState.IsPaused() ) return;
+		if( rigidbody.isKinematic || GameState.IsPaused() ){ return;}
+		else{
+			runSpeed+=0.01f;
+			turnSpeed+=0.006f;
+		}
 		
 		Vector3 inputVelocity = Vector3.zero;
 		
-		if(!turning) inputVelocity += transform.forward * runSpeed;
+	//	if(!turning)
+			inputVelocity += transform.forward * runSpeed;
 		
 		if(tabletInput.GetRightTurn()) StartTurn(rightAngle);
 		if(tabletInput.GetLeftTurn()) StartTurn(-rightAngle);
@@ -98,6 +106,12 @@ public class CarriageController : MonoBehaviour
 		if(c.tag=="Coin")
 		{
 			GameState.AddCoins(1);
+			Destroy(c.gameObject);
+		}
+		
+		if(c.tag=="Food")
+		{
+			GameState.AddFood(1);
 			Destroy(c.gameObject);
 		}
 	}
