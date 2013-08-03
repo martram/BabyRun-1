@@ -10,8 +10,11 @@ public abstract class InputView
 	}
 	
 	public abstract float GetStrafeAmt();
-	public abstract bool GetLeftTurn();
-	public abstract bool GetRightTurn();
+	
+	public abstract bool GetLeftStrafe();
+	public abstract bool GetRightStrafe();
+//	public abstract bool GetLeftTurn();
+	//public abstract bool GetRightTurn();
 	public abstract bool GetJump();
 	public abstract bool GetDuck();
 	

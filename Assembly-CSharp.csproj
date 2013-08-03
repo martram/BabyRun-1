@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BabyController.cs" />
+     <Compile Include="Assets\Scripts\CarController.cs" />
      <Compile Include="Assets\Scripts\CarriageController.cs" />
      <Compile Include="Assets\Scripts\CoinController.cs" />
      <Compile Include="Assets\Scripts\FoodController.cs" />

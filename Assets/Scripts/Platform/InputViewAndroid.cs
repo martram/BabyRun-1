@@ -23,8 +23,16 @@ public class InputViewAndroid : InputView
 	{
 		return Input.acceleration.x;
 	}
+		override public bool GetLeftStrafe()
+	{
+		return swipeLeft;
+	}
 	
-	override public bool GetLeftTurn()
+	override public bool GetRightStrafe()
+	{
+	return swipeRight;
+	}
+	/*override public bool GetLeftTurn()
 	{
 		return swipeLeft;
 	}
@@ -32,7 +40,7 @@ public class InputViewAndroid : InputView
 	override public bool GetRightTurn()
 	{
 		return swipeRight;
-	}
+	}*/
 	
 	override public bool GetJump()
 	{

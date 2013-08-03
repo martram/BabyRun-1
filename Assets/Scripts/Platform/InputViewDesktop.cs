@@ -9,8 +9,20 @@ public class InputViewDesktop : InputView
 	{
 		return Input.GetAxis("Mouse X");
 	}
+	override public bool GetLeftStrafe()
+	{
+		if(Input.GetKeyDown(KeyCode.LeftArrow)) return true;
+		if(Input.GetKeyDown(KeyCode.A)) return true;
+		return false;
+	}
 	
-	override public bool GetLeftTurn()
+	override public bool GetRightStrafe()
+	{
+		if(Input.GetKeyDown(KeyCode.RightArrow)) return true;
+		if(Input.GetKeyDown(KeyCode.D)) return true;
+		return false;
+	}
+	/*override public bool GetLeftTurn()
 	{
 		if(Input.GetKeyDown(KeyCode.LeftArrow)) return true;
 		if(Input.GetKeyDown(KeyCode.A)) return true;
@@ -22,7 +34,7 @@ public class InputViewDesktop : InputView
 		if(Input.GetKeyDown(KeyCode.RightArrow)) return true;
 		if(Input.GetKeyDown(KeyCode.D)) return true;
 		return false;
-	}
+	}*/
 	
 	override public bool GetJump()
 	{

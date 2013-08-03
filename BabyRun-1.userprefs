@@ -1,12 +1,26 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CarriageController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\FoodController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CoinController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CarriageController.cs" Line="50" Column="40" />
+      <File FileName="Assets\Scripts\GameState.cs" Line="60" Column="76" />
+      <File FileName="Assets\Scripts\GUIButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InputView.cs" Line="15" Column="37" />
+      <File FileName="Assets\Scripts\PressStart.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BabyController.cs" Line="37" Column="34" />
+      <File FileName="Assets\Scripts\CarController.cs" Line="15" Column="4" />
+      <File FileName="Assets\Scripts\Platform\InputViewDesktop.cs" Line="27" Column="19" />
+      <File FileName="Assets\Scripts\Platform\InputViewAndroid.cs" Line="33" Column="19" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
+                <Node name="Platform" expanded="True" />
                 <Node name="CarriageController.cs" selected="True" />
               </Node>
             </Node>
