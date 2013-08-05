@@ -10,8 +10,8 @@ public class CarriageController : MonoBehaviour
 	private bool ducking = false, jumping = false, turning = false, strafingRight=false, strafingLeft=false;
 	
 	private const float strafeSensitivity = 10f;
-	private float runSpeed = 10.5f;
-	private float strafeSpeed = 14f;
+	private float runSpeed = 12f;
+	private float strafeSpeed = 12f;
 	//private const float turnSpeed = Mathf.PI/2f;
 	//faster turn speed
 	private float turnSpeed = 4f;
@@ -43,7 +43,7 @@ public class CarriageController : MonoBehaviour
 		
 		if( rigidbody.isKinematic || GameState.IsPaused() ){ return;}
 		else{
-			runSpeed+=0.015f;
+			runSpeed+=0.0175f;
 			//turnSpeed+=0.006f;
 		}
 		
