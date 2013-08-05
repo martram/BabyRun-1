@@ -11,7 +11,7 @@ public class CarriageController : MonoBehaviour
 	
 	private const float strafeSensitivity = 10f;
 	private float runSpeed = 10.5f;
-	private float strafeSpeed = 17f;
+	private float strafeSpeed = 14f;
 	//private const float turnSpeed = Mathf.PI/2f;
 	//faster turn speed
 	private float turnSpeed = 4f;
@@ -22,7 +22,7 @@ public class CarriageController : MonoBehaviour
 	private const float duckTime = 1f;
 	
 
-	private const float strafeTime = 0.15f;
+	private const float strafeTime = 0.2f;
 	
 	private int safeCollideLayer;
 	private InputView tabletInput = InputView.CreateView();
