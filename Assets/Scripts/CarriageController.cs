@@ -10,8 +10,8 @@ public class CarriageController : MonoBehaviour
 	private bool ducking = false, jumping = false, turning = false, strafingRight=false, strafingLeft=false;
 	
 	private const float strafeSensitivity = 10f;
-	private float runSpeed = 7.5f;
-	private float strafeSpeed = 14f;
+	private float runSpeed = 10.5f;
+	private float strafeSpeed = 17f;
 	//private const float turnSpeed = Mathf.PI/2f;
 	//faster turn speed
 	private float turnSpeed = 4f;
@@ -22,7 +22,7 @@ public class CarriageController : MonoBehaviour
 	private const float duckTime = 1f;
 	
 
-	private const float strafeTime = 0.2f;
+	private const float strafeTime = 0.15f;
 	
 	private int safeCollideLayer;
 	private InputView tabletInput = InputView.CreateView();
@@ -43,7 +43,7 @@ public class CarriageController : MonoBehaviour
 		
 		if( rigidbody.isKinematic || GameState.IsPaused() ){ return;}
 		else{
-			runSpeed+=0.01f;
+			runSpeed+=0.015f;
 			//turnSpeed+=0.006f;
 		}
 		
