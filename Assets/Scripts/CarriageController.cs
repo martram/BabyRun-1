@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CarriageController : MonoBehaviour
 {
@@ -7,22 +8,26 @@ public class CarriageController : MonoBehaviour
 	public Transform duckMovers;
 	public Collider upper, lower;
 	
-	private bool ducking = false, jumping = false, turning = false, strafingRight=false, strafingLeft=false;
+	private bool ducking = false, jumping = false, turning = false, strafingRight=false, strafingLeft=false, strafing=false;
 	
 	private const float strafeSensitivity = 10f;
 	private float runSpeed = 12f;
-	private float strafeSpeed = 12f;
+	private float strafeSpeed = 18f;
 	//private const float turnSpeed = Mathf.PI/2f;
 	//faster turn speed
-	private float turnSpeed = 4f;
-	
+	private float turnSpeed = 8f;
+	private float currentLane= -2.7f;
+	private float nextLane= -2.7f;
 	private const float rightAngle = 90.0f;
 	
 	private const float duckDrop = 0.75f;
 	private const float duckTime = 1f;
-	
+	private int currentLaneID = 2;
+	private int nextLaneID = 2;
+	private float[] lanes = new float[4];
 
 	private const float strafeTime = 0.2f;
+	
 	
 	private int safeCollideLayer;
 	private InputView tabletInput = InputView.CreateView();
@@ -30,8 +35,13 @@ public class CarriageController : MonoBehaviour
 	
 	void Start()
 	{
+		lanes[0]=-11.6f;
+		lanes[1]=-6.8f;
+		lanes[2]=-2.6f;
+		lanes[3]=2.4f;
 		safeCollideLayer = LayerMask.NameToLayer("Nonfatal Collision");
 		targetForward = transform.forward;
+		rigidbody.AddTorque(transform.forward*runSpeed);
 	}
 	
 	void Update()
@@ -60,12 +70,33 @@ public class CarriageController : MonoBehaviour
 		if(tabletInput.GetDuck()) StartDuck();
 		
 		//if(!turning) inputVelocity += transform.right*tabletInput.GetStrafeAmt()*strafeSensitivity;
-		if(strafingRight) inputVelocity += transform.right*strafeSpeed;
-		if(strafingLeft) inputVelocity += transform.right*-strafeSpeed;
+		if(strafingRight&&transform.position.x>=lanes[nextLaneID]){
+			EndStrafeRight();
+			//print ("endstrafe called");
+		}
+		if(strafingLeft&&transform.position.x<=lanes[nextLaneID]){
+			EndStrafeLeft();
+			//print ("endstrafe called");
+		}
+		if(strafingRight){
+			if(lanes[nextLaneID]>lanes[currentLaneID]) inputVelocity += transform.right*strafeSpeed;
+		} 
+		if(strafingLeft){
+			if(lanes[nextLaneID]<lanes[currentLaneID]) inputVelocity += transform.right*-strafeSpeed;
+		} 
 		
+		//Vector3 gravity = -0.75f* Vector3.up;
 		Vector3 gravity = rigidbody.velocity.y * Vector3.up;
-		rigidbody.velocity = inputVelocity + gravity;
+	/*	if(gravity.y<0){
+			gravity= gravity*1.5;
+		}
+	if(rigidbody.position.y>0){*/
+			
+			rigidbody.velocity = inputVelocity + gravity;
+	/*	print ("gravity = "+ gravity);
+	}*/
 		
+	   
 		transform.forward = Vector3.RotateTowards(transform.forward, targetForward, turnSpeed*Time.deltaTime, 0.0f);
 		if( Vector3.Angle(transform.forward, targetForward) <= 0.1f ) turning = false;
 	}
@@ -80,34 +111,69 @@ public class CarriageController : MonoBehaviour
 	*/
 	void StartStrafeLeft()
 	{
+//	print ("strafingleft : "+strafingLeft+" "+lanes[nextLaneID] + "   pos  "+ transform.position.x);	
 	
 		
-		if(strafingLeft) return;
-		strafingLeft = true;
-		StartCoroutine( EndStrafeLeft() );
+		if(strafingLeft){
+			return;
+			
+		} else{
+			if(currentLaneID>0){
+				nextLaneID--;
+				nextLane= lanes[nextLaneID];
+	//			print ("current "+lanes[currentLaneID]+ " next "+ lanes[nextLaneID]);
+				
+				strafingLeft = true;
+			}
+			
+		}	
+		
 	}
-	IEnumerator EndStrafeLeft()
+	void EndStrafeLeft()
 	{
-	
-		
-		yield return new WaitForSeconds(strafeTime);
-	
+		currentLaneID--;
+		//give exact position//vectorright = 1,0,0
+		transform.Translate(lanes[currentLaneID]-transform.position.x,0,0);
+	//	print ("endLeft ="+transform.position.x+" should be "+lanes[currentLaneID]+" "+Vector3.right);
+	//rigidbody.transform.Translate(lanes[currentLaneID],transform.right.y,transform.right.z);
+//		transform.Translate(lanes[currentLaneID],transform.right.y,transform.right.z);
+		//yield return new WaitForSeconds(strafeTime);
+
 		strafingLeft = false;
 	}
 	void StartStrafeRight()
 	{
+	//print ("strafingright : "+strafingRight+" "+lanes[nextLaneID] + "   pos  "+ transform.position.x);	
+			
+		
+		if(strafingRight){
+			return;	
+		}
+		else{
+			if(currentLaneID<3){
+				nextLaneID++;
+				nextLane= lanes[nextLaneID];
+		//		print ("current "+currentLaneID+ " next "+ nextLaneID);
+				strafingRight = true;
+			} 
+				
+		}	
 	
 		
-		if(strafingRight) return;
-		strafingRight = true;
-		StartCoroutine( EndStrafeRight() );
+		//check logic, continue left
+		
+		
+			//StartCoroutine( EndStrafeRight() );
+	
 	}
-	IEnumerator EndStrafeRight()
+	//IEnumerator EndStrafeRight()
+	void EndStrafeRight()
 	{
 	
-		
-		yield return new WaitForSeconds(strafeTime);
-	
+		currentLaneID++;
+		transform.Translate(lanes[currentLaneID]-transform.position.x,0,0);
+	//transform.Translate(lanes[currentLaneID],transform.forward.y,transform.forward.z);
+		//print ("endRight ="+transform.position.x+" should be "+lanes[currentLaneID]);
 		strafingRight = false;
 	}
 	
@@ -132,6 +198,8 @@ public class CarriageController : MonoBehaviour
 	{
 		if(jumping) return;
 		jumping = true;
+		//rigidbody.AddTorque(Vector3.forward * 7f);
+		//rigidbody.AddForce(Vector3.up * 7f);
 		rigidbody.velocity += Vector3.up * 7f;
 	}
 	
@@ -139,6 +207,7 @@ public class CarriageController : MonoBehaviour
 	{
 		lower.enabled = upper.enabled = false;
 		rigidbody.isKinematic = true;
+		rigidbody.AddForce(transform.forward*10f);
 		baby.TossBaby(transform.forward);
 	}
 	
@@ -163,8 +232,9 @@ public class CarriageController : MonoBehaviour
 		
 		if(c.gameObject.layer!=safeCollideLayer)
 		{
+			print(c.contacts[0].thisCollider.name + " collided with " + c.gameObject.name + ":" + c.gameObject.layer);
+
 			DeadStop();
-			//print(c.contacts[0].thisCollider.name + " collided with " + c.gameObject.name + ":" + c.gameObject.layer);
-		}
+				}
 	}
 }

@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CarriageController.cs">
     <Files>
-      <File FileName="Assets\Scripts\FoodController.cs" Line="14" Column="1" />
+      <File FileName="Assets\Scripts\FoodController.cs" Line="10" Column="3" />
       <File FileName="Assets\Scripts\CoinController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CarriageController.cs" Line="46" Column="20" />
+      <File FileName="Assets\Scripts\CarriageController.cs" Line="38" Column="17" />
       <File FileName="Assets\Scripts\GameState.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GUIButton.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\InputView.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PressStart.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BabyController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CarController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CarController.cs" Line="6" Column="33" />
       <File FileName="Assets\Scripts\Platform\InputViewDesktop.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Platform\InputViewAndroid.cs" Line="1" Column="1" />
     </Files>

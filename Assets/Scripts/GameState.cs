@@ -20,7 +20,7 @@ public class GameState : MonoBehaviour
 	{
 		coinCounter.text = "x"+coins;
 		foodCounter.text = "x"+food;
-		print(foodCounter + " foodCounter = "+foodCounter.text+" food = "+food);
+	//	print(foodCounter + " foodCounter = "+foodCounter.text+" food = "+food);
 	}
 	
 	public static bool IsPaused()
@@ -57,7 +57,6 @@ public class GameState : MonoBehaviour
 			else Time.timeScale = 0f;
 			paused = !paused;
 			
-			print(foodCounter + " foodCounter = "+foodCounter.text+" food = "+food);
 		}
 	}
 }

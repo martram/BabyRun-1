@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CarController : MonoBehaviour
 {
-	private const float speed = 1.4f;
+	private const float speed = 1.1f;
 
 	void Update()
 	{

@@ -6,7 +6,7 @@ public class BabyController : MonoBehaviour
 	public TextMesh cannonDist;
 	
 	private const float m2ft = 3.280839895f;
-	private const float physScale = 600f;
+	private const float physScale = 200f;
 	private const float health = 100f;
 	
 	private const string cannonPrefix = "Baby Distance: ";
