@@ -11,15 +11,15 @@ Platform assembly: E:\workfiles\BabyRun\GitHub\BabyRun-1\BabyRun_Data\Managed\Un
 Loading E:\workfiles\BabyRun\GitHub\BabyRun-1\BabyRun_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: E:\workfiles\BabyRun\GitHub\BabyRun-1\BabyRun_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading E:\workfiles\BabyRun\GitHub\BabyRun-1\BabyRun_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.110 seconds
+- Completed reload, in  0.260 seconds
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.698756 ms
+UnloadTime: 1.761856 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2097.
-Total: 1.475769 ms (FindLiveObjects: 0.186876 ms CreateObjectMapping: 0.059013 ms MarkObjects: 0.361779 ms  DeleteObjects: 0.063717 ms)
+Total: 1.583959 ms (FindLiveObjects: 0.260002 ms CreateObjectMapping: 0.163356 ms MarkObjects: 0.291219 ms  DeleteObjects: 0.068849 ms)
 
 Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
  
@@ -264,6 +264,858 @@ Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
 Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
  
 (Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+UnloadTime: 5.645209 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 1.384682 ms (FindLiveObjects: 0.164211 ms CreateObjectMapping: 0.033783 ms MarkObjects: 0.342107 ms  DeleteObjects: 0.056447 ms)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+UnloadTime: 5.866724 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 1.356885 ms (FindLiveObjects: 0.161646 ms CreateObjectMapping: 0.037204 ms MarkObjects: 0.353226 ms  DeleteObjects: 0.055592 ms)
 
 Food Text (UnityEngine.TextMesh) foodCounter = x0 food = 0
  

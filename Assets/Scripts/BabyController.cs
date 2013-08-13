@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BabyController : MonoBehaviour
 {
-	public TextMesh cannonDist;
+	public TextMesh babyDist;
 	
 	private const float m2ft = 3.280839895f;
 	private const float physScale = 200f;
@@ -17,7 +17,7 @@ public class BabyController : MonoBehaviour
 	
 	void Start()
 	{
-		cannonDist.text = "";
+		babyDist.text = "";
 	}
 	
 	void Update()
@@ -25,7 +25,7 @@ public class BabyController : MonoBehaviour
 		if(tossed)
 		{
 			float dist = Vector3.Distance(tossStart, transform.position) * m2ft;
-			cannonDist.text = cannonPrefix + dist.ToString("F1") + cannonSuffix;
+			babyDist.text = cannonPrefix + dist.ToString("F1") + cannonSuffix;
 		}
 	}
 	
@@ -49,7 +49,7 @@ public class BabyController : MonoBehaviour
 	{		
 		
 		//health-=rigidbody.maxAngularVelocity;
-		cannonDist.text += " health/velocity : "+ rigidbody.maxAngularVelocity.ToString("F1");
+		babyDist.text += " health/velocity : "+ rigidbody.maxAngularVelocity.ToString("F1");
 		if(c.gameObject.tag=="Ground"){
 			
 			rigidbody.maxAngularVelocity = 0f;

@@ -8,23 +8,30 @@ public class CarriageController : MonoBehaviour
 	public Transform duckMovers;
 	public Collider upper, lower;
 	
-	private bool ducking = false, jumping = false, turning = false, strafingRight=false, strafingLeft=false, strafing=false;
+	private bool ducking = false, jumping = false, strafingRight=false, strafingLeft=false;
+	
+	public TextMesh runningDistanceText;
+	private const string runningDistancePrefix = "Running Points: ";
+	private const string runningDistanceSuffix = "!";
 	
 	private const float strafeSensitivity = 10f;
-	private float runSpeed = 12f;
-	private float strafeSpeed = 18f;
+	private float runSpeed = 11f;
+	private float strafeSpeed = 19f;
 	//private const float turnSpeed = Mathf.PI/2f;
 	//faster turn speed
 	private float turnSpeed = 8f;
-	private float currentLane= -2.7f;
-	private float nextLane= -2.7f;
+
+	private float nextLane= -2.2f;
 	private const float rightAngle = 90.0f;
+	private float runningDistance;
+	private Vector3 runningStartPos;
 	
 	private const float duckDrop = 0.75f;
 	private const float duckTime = 1f;
 	private int currentLaneID = 2;
 	private int nextLaneID = 2;
 	private float[] lanes = new float[4];
+	private const float m2ft = 3.280839895f;
 
 	private const float strafeTime = 0.2f;
 	
@@ -35,10 +42,11 @@ public class CarriageController : MonoBehaviour
 	
 	void Start()
 	{
-		lanes[0]=-11.6f;
-		lanes[1]=-6.8f;
-		lanes[2]=-2.6f;
-		lanes[3]=2.4f;
+		runningStartPos=transform.position;
+		lanes[0]=-11.4f;
+		lanes[1]=-6.7f;
+		lanes[2]=-2.2f;
+		lanes[3]=2.5f;
 		safeCollideLayer = LayerMask.NameToLayer("Nonfatal Collision");
 		targetForward = transform.forward;
 		rigidbody.AddTorque(transform.forward*runSpeed);
@@ -53,10 +61,12 @@ public class CarriageController : MonoBehaviour
 		
 		if( rigidbody.isKinematic || GameState.IsPaused() ){ return;}
 		else{
-			runSpeed+=0.0175f;
+			runSpeed+=0.011f;
 			//turnSpeed+=0.006f;
+			runningDistance = Vector3.Distance(runningStartPos, transform.position);
+				runningDistanceText.text = runningDistancePrefix + runningDistance.ToString("F1") + runningDistanceSuffix;
+	
 		}
-		
 		Vector3 inputVelocity = Vector3.zero;
 		
 	//	if(!turning)
@@ -98,7 +108,7 @@ public class CarriageController : MonoBehaviour
 		
 	   
 		transform.forward = Vector3.RotateTowards(transform.forward, targetForward, turnSpeed*Time.deltaTime, 0.0f);
-		if( Vector3.Angle(transform.forward, targetForward) <= 0.1f ) turning = false;
+		
 	}
 	
 	/*void StartTurn(float angle)
@@ -200,7 +210,7 @@ public class CarriageController : MonoBehaviour
 		jumping = true;
 		//rigidbody.AddTorque(Vector3.forward * 7f);
 		//rigidbody.AddForce(Vector3.up * 7f);
-		rigidbody.velocity += Vector3.up * 7f;
+		rigidbody.velocity += Vector3.up * 10f;
 	}
 	
 	void DeadStop()
