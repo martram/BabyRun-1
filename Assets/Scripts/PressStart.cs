@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PressStart : MonoBehaviour
 {
+		
 	void Update()
 	{
 		if(Input.GetMouseButtonDown(0))

@@ -13,6 +13,7 @@ public class GameState : MonoBehaviour
 	
 	void Start()
 	{
+
 		defTimeScale = Time.timeScale;
 	}
 	

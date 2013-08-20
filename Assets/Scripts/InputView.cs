@@ -5,7 +5,11 @@ public abstract class InputView
 {
 	public static InputView CreateView()
 	{
-		if(Application.platform==RuntimePlatform.Android) return new InputViewAndroid();
+		if(Application.platform==RuntimePlatform.Android){
+				Screen.orientation = ScreenOrientation.Landscape;
+			return new InputViewAndroid();
+	
+		} 
 		else return new InputViewDesktop();
 	}
 	
