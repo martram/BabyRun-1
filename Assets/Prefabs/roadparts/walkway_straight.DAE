@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2013-08-26T01:08:21Z</created><keywords></keywords><modified>2013-08-26T01:08:21Z</modified><revision></revision><subject></subject><title></title><unit meter="0.304800" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="Map #20-image" name="Map #20"><init_from>file://E:\workfiles\BabyRun\models\roadtextures\walkway_straight.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="walkway_straight" name="walkway_straight">
+      <instance_effect url="#walkway_straight-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="walkway_straight-fx" name="walkway_straight">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #20-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="walkway_straight-lib" name="walkway_straightMesh">
+      <mesh>
+        <source id="walkway_straight-POSITION">
+          <float_array id="walkway_straight-POSITION-array" count="60">
+-26.279760 116.409925 0.063081
+-19.569374 116.409925 0.063081
+-26.279762 116.409925 -0.698065
+-19.569374 116.409925 -0.698065
+-26.279760 -244.313472 0.053970
+-19.569370 -244.313472 0.053970
+-26.279760 -244.313472 -0.801186
+-19.569370 -244.313472 -0.801186
+-26.279760 26.229062 0.060803
+-26.279760 -63.951793 0.058525
+-26.279760 -154.132655 0.056248
+-19.569370 -154.132625 0.056248
+-19.569370 -63.951777 0.058525
+-19.569374 26.229100 0.060803
+-26.279762 26.229070 -0.723845
+-26.279762 -63.951777 -0.749625
+-26.279760 -154.132625 -0.775405
+-19.569370 -154.132655 -0.775405
+-19.569370 -63.951793 -0.749625
+-19.569374 26.229062 -0.723845
+</float_array>
+          <technique_common>
+            <accessor source="#walkway_straight-POSITION-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="walkway_straight-Normal0">
+          <float_array id="walkway_straight-Normal0-array" count="216">
+-0.000000 -0.000025 1.000000
+0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+-0.000000 -0.000025 1.000000
+0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-0.000000 -0.000025 1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000003
+-1.000000 -0.000000 0.000003
+-1.000000 -0.000000 0.000003
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+-1.000000 -0.000000 0.000002
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#walkway_straight-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="walkway_straight-UV0">
+          <float_array id="walkway_straight-UV0-array" count="64">
+0.002061 0.515480
+0.002061 0.602191
+0.002061 0.504635
+0.997937 0.037506
+0.002061 0.613037
+0.997937 0.136438
+0.997937 0.049705
+0.997937 0.148634
+0.002061 0.049703
+0.002061 0.136423
+0.002061 0.148265
+0.002061 0.205624
+0.002062 0.360854
+0.997937 0.515472
+0.997939 0.360867
+0.997937 0.205627
+0.997937 0.292364
+0.997937 0.447606
+0.997937 0.602215
+0.997937 0.504288
+0.002061 0.194107
+0.002061 0.037863
+0.997937 0.304222
+0.997936 0.459146
+0.997937 0.613398
+0.002061 0.292342
+0.002063 0.349659
+0.997939 0.349364
+0.002061 0.303851
+0.002061 0.447569
+0.997937 0.193776
+0.002061 0.458727
+</float_array>
+          <technique_common>
+            <accessor source="#walkway_straight-UV0-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="walkway_straight-VERTEX">
+          <input semantic="POSITION" source="#walkway_straight-POSITION"/>
+        </vertices>
+        <triangles count="24" material="walkway_straight"><input semantic="VERTEX" offset="0" source="#walkway_straight-VERTEX"/><input semantic="NORMAL" offset="1" source="#walkway_straight-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#walkway_straight-UV0"/><p> 12 0 25 9 1 11 10 2 15 10 3 15 11 4 16 12 5 25 15 6 27 9 7 14 8 8 12 8 9 12 14 10 26 15 11 27 12 12 17 18 13 23 19 14 31 19 15 31 13 16 29 12 17 17 1 18 1 0 19 0 8 20 13 8 21 13 13 22 18 1 23 1 12 24 17 13 25 29 8 26 12 8 27 12 9 28 14 12 29 17 4 30 6 5 31 5 11 32 9 11 33 9 10 34 8 4 35 6 6 36 3 4 37 6 10 38 8 10 39 8 16 40 21 6 41 3 16 42 30 10 43 15 9 44 11 9 45 11 15 46 20 16 47 30 0 48 0 2 49 2 14 50 19 14 51 19 8 52 13 0 53 0 5 54 5 7 55 7 17 56 10 17 57 10 11 58 9 5 59 5 11 60 16 17 61 22 18 62 28 18 63 28 12 64 25 11 65 16 3 66 4 1 67 1 13 68 18 13 69 18 19 70 24 3 71 4</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Group001" id="Group001" layer="man and stroller" sid="Group001"><matrix sid="matrix">0.083333 0.000000 0.000000 -1.080126 0.000000 0.000000 0.083333 -1.513181 0.000000 -0.083333 0.000000 34.139591 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="walkway_straight" id="walkway_straight" sid="walkway_straight"><matrix sid="matrix">2.770110 0.000000 0.000000 1.615690 0.000000 2.770110 0.000000 176.926758 0.000000 -0.000000 2.770110 0.797523 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#walkway_straight-lib"><bind_material><technique_common><instance_material symbol="walkway_straight" target="#walkway_straight"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>-0.166667</start_time><end_time>20.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>

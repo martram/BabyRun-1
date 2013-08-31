@@ -47,6 +47,7 @@ public class CarriageController : MonoBehaviour
 		lanes[1]=-6.7f;
 		lanes[2]=-2.2f;
 		lanes[3]=2.5f;
+		
 		safeCollideLayer = LayerMask.NameToLayer("Nonfatal Collision");
 		targetForward = transform.forward;
 		rigidbody.AddTorque(transform.forward*runSpeed);
@@ -239,7 +240,11 @@ public class CarriageController : MonoBehaviour
 	void OnCollisionEnter(Collision c)
 	{
 		jumping = false;
-		
+		if(c.gameObject.name=="car_frame"){
+			
+			c.gameObject.layer = safeCollideLayer;
+			
+		}
 		if(c.gameObject.layer!=safeCollideLayer)
 		{
 			print(c.contacts[0].thisCollider.name + " collided with " + c.gameObject.name + ":" + c.gameObject.layer);

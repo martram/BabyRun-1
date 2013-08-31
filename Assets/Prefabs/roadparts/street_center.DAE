@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2013-08-28T12:23:14Z</created><keywords></keywords><modified>2013-08-28T12:23:14Z</modified><revision></revision><subject></subject><title></title><unit meter="0.304800" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_geometries>
+    <geometry id="street_straight-lib" name="street_straightMesh">
+      <mesh>
+        <source id="street_straight-POSITION">
+          <float_array id="street_straight-POSITION-array" count="30">
+-24.238424 116.410153 -0.442298
+25.025902 116.410077 -0.442297
+-24.238420 -244.313533 -0.442298
+25.025902 -244.313533 -0.442297
+-24.238424 26.229230 -0.442298
+-24.238420 -63.951686 -0.442298
+-24.238420 -154.132594 -0.442298
+25.025902 -154.132594 -0.442297
+25.025902 -63.951686 -0.442297
+25.025902 26.229192 -0.442297
+</float_array>
+          <technique_common>
+            <accessor source="#street_straight-POSITION-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="street_straight-Normal0">
+          <float_array id="street_straight-Normal0-array" count="72">
+-0.000000 0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#street_straight-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="street_straight-UV0">
+          <float_array id="street_straight-UV0-array" count="32">
+0.003836 0.333104
+0.003837 0.640456
+0.680534 0.333103
+0.680535 0.640455
+0.688486 0.017106
+0.995839 0.017106
+0.003929 0.959943
+0.003929 0.652590
+0.680535 0.014313
+0.680534 0.321666
+0.688486 0.693805
+0.680627 0.959943
+0.003836 0.014312
+0.003836 0.321664
+0.680627 0.652591
+0.995839 0.693804
+</float_array>
+          <technique_common>
+            <accessor source="#street_straight-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="street_straight-VERTEX">
+          <input semantic="POSITION" source="#street_straight-POSITION"/>
+        </vertices>
+        <triangles count="8"><input semantic="VERTEX" offset="0" source="#street_straight-VERTEX"/><input semantic="NORMAL" offset="1" source="#street_straight-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#street_straight-UV0"/><p> 8 0 14 5 1 11 6 2 6 6 3 6 7 4 7 8 5 14 1 6 1 0 7 0 4 8 2 4 9 2 9 10 3 1 11 1 9 12 15 4 13 10 5 14 4 5 15 4 8 16 5 9 17 15 2 18 8 3 19 9 7 20 13 7 21 13 6 22 12 2 23 8</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Group001" id="Group001" layer="man and stroller" sid="Group001"><matrix sid="matrix">0.083333 0.000000 0.000000 -1.080126 0.000000 0.000000 0.083333 -1.513181 0.000000 -0.083333 0.000000 34.139591 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="street_straight" id="street_straight" sid="street_straight"><matrix sid="matrix">2.770110 0.000000 0.000000 1.615690 0.000000 2.770110 0.000000 176.926758 0.000000 -0.000000 2.770110 0.797523 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#street_straight-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>-0.166667</start_time><end_time>20.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
