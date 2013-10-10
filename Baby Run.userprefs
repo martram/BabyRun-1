@@ -2,23 +2,27 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameState.cs">
     <Files>
-      <File FileName="Assets\Scripts\CarriageController.cs" Line="118" Column="112" />
-      <File FileName="Assets\Scripts\GameState.cs" Line="39" Column="2" />
-      <File FileName="Assets\Scripts\PressStart.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\BabyController.cs" Line="52" Column="20" />
+      <File FileName="..\..\UIexemple\solution\Assets\Scripts\Pickup.js" Line="1" Column="1" />
+      <File FileName="..\..\UIexemple\solution\Assets\Scripts\PickupController.js" Line="26" Column="2" />
+      <File FileName="..\..\UIexemple\solution\Assets\Scripts\PlayerController.js" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="15" Column="25" />
+      <File FileName="Assets\Scripts\CarriageController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameState.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PressStart.cs" Line="30" Column="1" />
+      <File FileName="Assets\Scripts\BabyController.cs" Line="1" Column="19" />
       <File FileName="Assets\Scripts\Platform\InputViewAndroid.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Platform\InputViewDesktop.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CoinController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GUIButton.cs" Line="7" Column="22" />
+      <File FileName="Assets\Scripts\CoinController.cs" Line="10" Column="3" />
+      <File FileName="Assets\Scripts\GUIButton.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\InputView.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True" selected="True">
+          <Node name="Assembly-CSharp" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Platform" expanded="True" />
+                <Node name="GameState.cs" selected="True" />
               </Node>
             </Node>
           </Node>

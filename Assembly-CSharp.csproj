@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Baby.cs" />
      <Compile Include="Assets\Scripts\BabyController.cs" />
      <Compile Include="Assets\Scripts\CarController.cs" />
      <Compile Include="Assets\Scripts\CarriageController.cs" />
@@ -52,6 +53,7 @@
      <Compile Include="Assets\Scripts\GUIButton.cs" />
      <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\InputView.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Platform\InputViewAndroid.cs" />
      <Compile Include="Assets\Scripts\Platform\InputViewDesktop.cs" />
      <Compile Include="Assets\Scripts\PressStart.cs" />

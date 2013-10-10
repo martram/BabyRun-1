@@ -6,8 +6,8 @@ public class GUIButton : MonoBehaviour
 	public GameObject receiver;
 	public string buttonText;
 	
-	private Rect buttonResetRect;
-	private Rect buttonPauseRect;
+	public Rect buttonResetRect;
+	public Rect buttonPauseRect;
 	GUIStyle buttonStyle;
 	
 	void Start()

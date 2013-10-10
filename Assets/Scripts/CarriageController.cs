@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class CarriageController : MonoBehaviour
 {
-	public BabyController baby;
+	//public Baby baby;
 	public Transform duckMovers;
 	public Collider upper, lower;
 	
@@ -219,7 +219,9 @@ public class CarriageController : MonoBehaviour
 		lower.enabled = upper.enabled = false;
 		rigidbody.isKinematic = true;
 		rigidbody.AddForce(transform.forward*10f);
-		baby.TossBaby(transform.forward);
+		
+		print("DeadStop babyIDs = "+GameState.babyIDs);
+		GameState.baby[GameState.babyIDs-1].TossBaby(transform.forward);
 	}
 	
 	void OnTriggerEnter(Collider c)
