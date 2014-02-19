@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2014-01-09T13:17:00Z</created><keywords></keywords><modified>2014-01-09T13:17:00Z</modified><revision></revision><subject></subject><title></title><unit meter="0.304800" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="Map #21-image" name="Map #21"><init_from>file://E:\workfiles\BabyRun\models\roadtextures\grasslong.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="grass_straight" name="grass_straight">
+      <instance_effect url="#grass_straight-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="grass_straight-fx" name="grass_straight">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #21-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="terrain_straight-lib" name="terrain_straightMesh">
+      <mesh>
+        <source id="terrain_straight-POSITION">
+          <float_array id="terrain_straight-POSITION-array" count="30">
+-47.698906 -180.361816 -0.216598
+47.699020 -180.361816 -0.216598
+47.699020 180.361839 -0.216598
+-47.698906 180.361839 -0.216598
+47.699020 -90.180878 -0.216598
+47.699020 0.000076 -0.216598
+47.699020 90.180939 -0.216598
+-47.698906 90.180923 -0.216598
+-47.698906 0.000061 -0.216598
+-47.698906 -90.180878 -0.216598
+</float_array>
+          <technique_common>
+            <accessor source="#terrain_straight-POSITION-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="terrain_straight-Normal0">
+          <float_array id="terrain_straight-Normal0-array" count="72">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#terrain_straight-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="terrain_straight-UV0">
+          <float_array id="terrain_straight-UV0-array" count="32">
+0.492527 0.971788
+0.010756 0.971788
+0.010756 0.492575
+0.492527 0.492576
+0.506871 0.971788
+0.989080 0.971788
+0.506871 0.492576
+0.989080 0.492576
+0.010756 0.027707
+0.492527 0.027707
+0.010756 0.506920
+0.506871 0.027707
+0.506871 0.506919
+0.989080 0.506919
+0.989080 0.027707
+0.492527 0.506920
+</float_array>
+          <technique_common>
+            <accessor source="#terrain_straight-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="terrain_straight-VERTEX">
+          <input semantic="POSITION" source="#terrain_straight-POSITION"/>
+        </vertices>
+        <triangles count="8" material="grass_straight"><input semantic="VERTEX" offset="0" source="#terrain_straight-VERTEX"/><input semantic="NORMAL" offset="1" source="#terrain_straight-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#terrain_straight-UV0"/><p> 5 0 11 8 1 14 9 2 7 9 3 7 4 4 6 5 5 11 2 6 8 3 7 9 7 8 3 7 9 3 6 10 2 2 11 8 6 12 12 7 13 13 8 14 5 8 15 5 5 16 4 6 17 12 0 18 0 1 19 1 4 20 10 4 21 10 9 22 15 0 23 0</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Group001" id="Group001" layer="man and stroller" sid="Group001"><matrix sid="matrix">0.083333 0.000000 0.000000 -1.080126 0.000000 0.000000 0.083333 0.097593 0.000000 -0.083333 0.000000 34.139591 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="terrain_straight" id="terrain_straight" sid="terrain_straight"><matrix sid="matrix">2.770110 0.000000 0.000000 -200.847321 0.000000 2.770110 0.000000 -0.226532 0.000000 -0.000000 2.770110 -0.571112 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#terrain_straight-lib"><bind_material><technique_common><instance_material symbol="grass_straight" target="#grass_straight"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>-0.166667</start_time><end_time>20.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>

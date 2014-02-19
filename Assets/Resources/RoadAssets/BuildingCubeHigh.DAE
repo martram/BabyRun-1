@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2014-01-11T01:52:28Z</created><keywords></keywords><modified>2014-01-11T01:52:28Z</modified><revision></revision><subject></subject><title></title><unit meter="0.304800" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="house" name="house">
+      <instance_effect url="#house-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="house-fx" name="house">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.458824  0.431373 0.380392 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.047059  0.047059 0.047059 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1024.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="buildingCubeHigh-lib" name="buildingCubeHighMesh">
+      <mesh>
+        <source id="buildingCubeHigh-POSITION">
+          <float_array id="buildingCubeHigh-POSITION-array" count="36">
+49.314487 51.945770 -0.034005
+49.314495 -55.230164 -0.034005
+53.205948 55.230171 183.335785
+53.205956 -55.056541 183.335785
+-49.314476 51.945786 -0.034016
+-49.314476 -55.230156 -0.034021
+-53.205986 55.230164 183.335770
+-53.205956 -55.056549 183.335770
+49.314480 51.945763 84.265472
+49.314480 -55.230164 84.265472
+-45.529274 -55.230152 84.265442
+-45.529282 51.945778 84.265457
+</float_array>
+          <technique_common>
+            <accessor source="#buildingCubeHigh-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="buildingCubeHigh-Normal0">
+          <float_array id="buildingCubeHigh-Normal0-array" count="180">
+0.999803 0.000000 -0.019833
+0.999808 0.000000 -0.019618
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.999803 0.000000 -0.019833
+-0.998994 -0.000000 0.044857
+-0.999869 -0.000000 -0.016196
+-0.999858 -0.000000 -0.016866
+-0.999858 -0.000000 -0.016866
+-0.998993 -0.000000 0.044857
+-0.998994 -0.000000 0.044857
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.000000 -1.000000 0.000887
+-0.000000 -1.000000 0.000885
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 0.000887
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+0.000000 0.999859 -0.016774
+0.000000 0.999860 -0.016734
+0.000000 0.999451 -0.033134
+0.000000 0.999451 -0.033134
+-0.000000 0.999451 -0.033134
+0.000000 0.999859 -0.016774
+0.999229 0.000000 -0.039250
+0.999229 0.000000 -0.039250
+0.999808 0.000000 -0.019618
+0.999808 0.000000 -0.019618
+0.999803 0.000000 -0.019833
+0.999229 0.000000 -0.039250
+-0.997011 -0.000000 -0.077256
+-0.997011 -0.000000 -0.077256
+-0.999858 -0.000000 -0.016866
+-0.999858 -0.000000 -0.016866
+-0.999869 -0.000000 -0.016196
+-0.997011 -0.000000 -0.077256
+-0.000000 -0.999998 0.001752
+0.000000 -0.999999 0.001752
+-0.000000 -1.000000 0.000885
+-0.000000 -1.000000 0.000885
+-0.000000 -1.000000 0.000887
+-0.000000 -0.999998 0.001752
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.999860 -0.016734
+0.000000 0.999860 -0.016734
+0.000000 0.999859 -0.016774
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#buildingCubeHigh-Normal0-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="buildingCubeHigh-UV0">
+          <float_array id="buildingCubeHigh-UV0-array" count="64">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+1.000000 0.500000
+0.500000 0.000000
+0.000000 0.500000
+0.500000 0.000000
+1.000000 0.500000
+0.500000 1.000000
+0.000000 0.500000
+0.500000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#buildingCubeHigh-UV0-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="buildingCubeHigh-VERTEX">
+          <input semantic="POSITION" source="#buildingCubeHigh-POSITION"/>
+        </vertices>
+        <triangles count="20" material="house"><input semantic="VERTEX" offset="0" source="#buildingCubeHigh-VERTEX"/><input semantic="NORMAL" offset="1" source="#buildingCubeHigh-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#buildingCubeHigh-UV0"/><p> 8 0 24 9 1 26 1 2 1 1 3 1 0 4 0 8 5 24 5 6 5 10 7 28 11 8 30 11 9 30 4 10 4 5 11 5 0 12 8 1 13 9 5 14 11 5 15 11 4 16 10 0 17 8 9 18 27 10 19 29 5 20 14 5 21 14 1 22 12 9 23 27 3 24 16 2 25 17 6 26 19 6 27 19 7 28 18 3 29 16 8 30 25 11 31 31 6 32 22 6 33 22 2 34 20 8 35 25 2 36 2 3 37 3 9 38 26 9 39 26 8 40 24 2 41 2 7 42 7 6 43 6 11 44 30 11 45 30 10 46 28 7 47 7 3 48 13 7 49 15 10 50 29 10 51 29 9 52 27 3 53 13 0 54 21 4 55 23 11 56 31 11 57 31 8 58 25 0 59 21</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="buildingCubeHigh" id="buildingCubeHigh" sid="buildingCubeHigh"><matrix sid="matrix">0.083333 0.000000 0.000000 0.000000 0.000000 0.000000 0.083333 0.000000 0.000000 -0.083333 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#buildingCubeHigh-lib"><bind_material><technique_common><instance_material symbol="house" target="#house"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>-0.166667</start_time><end_time>20.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>

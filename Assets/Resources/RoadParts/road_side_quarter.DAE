@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2014-01-10T03:46:20Z</created><keywords></keywords><modified>2014-01-10T03:46:20Z</modified><revision></revision><subject></subject><title></title><unit meter="0.304800" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="grass_corner_mat-image" name="grass_corner_mat"><init_from>file://E:\workfiles\BabyRun\models\roadtextures\grass_corner.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="grass_mat" name="grass_mat">
+      <instance_effect url="#grass_mat-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="grass_mat-fx" name="grass_mat">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="grass_corner_mat-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="terrain_quarter-lib" name="terrain_quarterMesh">
+      <mesh>
+        <source id="terrain_quarter-POSITION">
+          <float_array id="terrain_quarter-POSITION-array" count="24">
+-46.968056 -180.318146 -0.216598
+46.968010 -180.318146 -0.216598
+46.968010 -24.125854 -0.216598
+-46.968056 -24.125908 -0.216598
+-46.968071 24.125954 -0.216598
+46.967987 24.125954 -0.216598
+46.968010 180.318062 -0.216598
+-46.968067 180.317986 -0.216598
+</float_array>
+          <technique_common>
+            <accessor source="#terrain_quarter-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="terrain_quarter-Normal0">
+          <float_array id="terrain_quarter-Normal0-array" count="36">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#terrain_quarter-Normal0-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="terrain_quarter-UV0">
+          <float_array id="terrain_quarter-UV0-array" count="16">
+0.000000 0.601413
+0.000000 0.000000
+1.000000 0.000000
+1.000000 0.601414
+0.000000 0.601413
+0.000000 0.000000
+1.000000 0.000000
+1.000000 0.601414
+</float_array>
+          <technique_common>
+            <accessor source="#terrain_quarter-UV0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="terrain_quarter-VERTEX">
+          <input semantic="POSITION" source="#terrain_quarter-POSITION"/>
+        </vertices>
+        <triangles count="4" material="grass_mat"><input semantic="VERTEX" offset="0" source="#terrain_quarter-VERTEX"/><input semantic="NORMAL" offset="1" source="#terrain_quarter-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#terrain_quarter-UV0"/><p> 1 0 1 2 1 2 3 2 3 3 3 3 0 4 0 1 5 1 5 6 5 6 7 6 7 8 7 7 9 7 4 10 4 5 11 5</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Group001" id="Group001" layer="man and stroller" sid="Group001"><matrix sid="matrix">0.083333 0.000000 0.000000 -1.080126 0.000000 0.000000 0.083333 0.097593 0.000000 -0.083333 0.000000 34.139591 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="terrain_quarter" id="terrain_quarter" sid="terrain_quarter"><matrix sid="matrix">2.770110 0.000000 0.000000 -199.522125 0.000000 2.770110 0.000000 -0.347534 0.000000 -0.000000 2.770110 -0.571112 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#terrain_quarter-lib"><bind_material><technique_common><instance_material symbol="grass_mat" target="#grass_mat"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>-0.166667</start_time><end_time>20.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
