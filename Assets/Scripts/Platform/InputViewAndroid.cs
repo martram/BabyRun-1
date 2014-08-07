@@ -7,7 +7,7 @@ public class InputViewAndroid : InputView
 	private const float minSwipeTime = 0f;
 	private const float maxSwipeTime = 1f;
 	
-	private const float minSwipeDist = 0.25f;
+		private const float minSwipeDist = 0.1f;
 	private const float maxSwipeDist = 1f;
 	
 	private const float tossThres = 0.5f;
@@ -51,7 +51,10 @@ public class InputViewAndroid : InputView
 	{
 		return swipeDown;
 	}
-	
+	override public bool GetResetGame()
+	{
+		return false;
+	}
 	override public bool GetTossBaby()
 	{
 		return false;
@@ -117,7 +120,12 @@ public class InputViewAndroid : InputView
 			CheckSwipe(-dist.y, ref swipeDown);
 			CheckSwipe(-dist.x, ref swipeLeft);
 			CheckSwipe(dist.x, ref swipeRight);
+						/*	if (GameState.bShowMainMenu&&GameState.baby[GameState.babyIndex].x) {
+
+
+						}*/
 		}
+
 	}
 	
 	private void CheckSwipe(float distance, ref bool flag)

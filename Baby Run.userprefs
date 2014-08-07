@@ -1,34 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameState.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Baby.cs">
     <Files>
-      <File FileName="..\..\UIexemple\solution\Assets\Scripts\Pickup.js" Line="1" Column="1" />
-      <File FileName="..\..\UIexemple\solution\Assets\Scripts\PickupController.js" Line="26" Column="2" />
-      <File FileName="..\..\UIexemple\solution\Assets\Scripts\PlayerController.js" Line="13" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="15" Column="25" />
-      <File FileName="Assets\Scripts\CarriageController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameState.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PressStart.cs" Line="30" Column="1" />
-      <File FileName="Assets\Scripts\BabyController.cs" Line="1" Column="19" />
-      <File FileName="Assets\Scripts\Platform\InputViewAndroid.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Platform\InputViewDesktop.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CoinController.cs" Line="10" Column="3" />
-      <File FileName="Assets\Scripts\GUIButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\InputView.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameState.cs" Line="27" Column="27" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="47" Column="47" />
+      <File FileName="Assets\Scripts\AudioController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CarController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Coin.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CarriageController.cs" Line="37" Column="37" />
+      <File FileName="Assets\Scripts\Baby.cs" Line="4" Column="4" />
+      <File FileName="Assets\Scripts\ButtonMenu.cs" Line="48" Column="48" />
+      <File FileName="Assets\Scripts\Meteor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Roads.cs" Line="52" Column="52" />
+      <File FileName="Assets\Scripts\BabyArm.cs" Line="51" Column="51" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="GameState.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

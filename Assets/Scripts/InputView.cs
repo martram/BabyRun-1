@@ -6,7 +6,7 @@ public abstract class InputView
 	public static InputView CreateView()
 	{
 		if(Application.platform==RuntimePlatform.Android){
-				Screen.orientation = ScreenOrientation.Landscape;
+				Screen.orientation = ScreenOrientation.Portrait;
 			return new InputViewAndroid();
 	
 		} 
@@ -21,6 +21,7 @@ public abstract class InputView
 	//public abstract bool GetRightTurn();
 	public abstract bool GetJump();
 	public abstract bool GetDuck();
+		public abstract bool GetResetGame();
 	
 	public abstract bool GetTossBaby();
 	

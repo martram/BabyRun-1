@@ -5,28 +5,24 @@ public class GUIButton : MonoBehaviour
 {
 	public GameObject receiver;
 	public string buttonText;
-	
-	public Rect buttonResetRect;
-	public Rect buttonPauseRect;
+
+	public Rect buttonSelectRect;
 	GUIStyle buttonStyle;
 	
 	void Start()
 	{
 		Bounds bounds = renderer.bounds;
-		Vector3 buttonResetPos;
-		buttonResetPos.x=100;
-		buttonResetPos.y=100;
-		buttonResetPos.z=0;
+		Vector3 buttonSelectPos;
+		buttonSelectPos.x=100;
+		buttonSelectPos.y=100;
+		buttonSelectPos.z=0;
 		
-		Vector3 buttonPausePos;
-		buttonPausePos.x=300;
-		buttonPausePos.y=100;
-		buttonPausePos.z=0;
+		
 		//Vector3 buttonPos = Camera.main.WorldToScreenPoint( new Vector3(bounds.min.x, bounds.max.y, bounds.min.z) );
-		buttonResetPos.y = Screen.height - buttonResetPos.y;
-		buttonPausePos.y = Screen.height - buttonPausePos.y;
-		buttonResetPos.x = Screen.width - buttonResetPos.x;
-		buttonPausePos.x = Screen.width - buttonPausePos.x;
+		buttonSelectPos.y = Screen.height - buttonSelectPos.y;
+		
+		buttonSelectPos.x = Screen.width - buttonSelectPos.x;
+
 
 		Vector3 buttonMax = Camera.main.WorldToScreenPoint( bounds.max );
 		Vector3 buttonMin = Camera.main.WorldToScreenPoint( bounds.min );
@@ -34,8 +30,8 @@ public class GUIButton : MonoBehaviour
 		Vector3 buttonSize = buttonMax-buttonMin;
 	
 		
-		buttonResetRect = new Rect(buttonResetPos.x, buttonResetPos.y, buttonSize.x, buttonSize.y);
-		buttonPauseRect = new Rect(buttonPausePos.x, buttonPausePos.y, buttonSize.x, buttonSize.y);
+				buttonSelectRect = new Rect(buttonSelectPos.x, buttonSelectPos.y, buttonSize.x, buttonSize.y);
+	
 		
 		renderer.enabled = false;
 	}
@@ -51,17 +47,11 @@ public class GUIButton : MonoBehaviour
 		buttonStyle.wordWrap = true;
 		buttonStyle.alignment = TextAnchor.UpperCenter;
 
-		if( GUI.Button(buttonResetRect, "Reset", buttonStyle) )
+		
+				if( GUI.Button(buttonSelectRect, "Select",buttonStyle) )
 		{
-			SendMessage("Reset");
+						SendMessage("Select");
 		}
-		if( GUI.Button(buttonPauseRect, "Pause",buttonStyle) )
-		{
-			SendMessage("Pause");
-		}
-	/*	if( GUI.Button(buttonRect, "\n"+buttonText, buttonStyle) )
-		{
-			SendMessage(buttonText);
-		}*/
-	}
+
+}
 }
